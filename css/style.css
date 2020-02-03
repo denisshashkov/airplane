@@ -69,6 +69,10 @@ img {
 
 /* МЕНЮ*/
 
+.navigation{
+  width: 200px;
+  display: inline-block;
+}
 
 .sidebar {
   width: 190px;
@@ -144,6 +148,12 @@ img {
 
 /*ОБЛОЖКА*/
 
+.content{
+  width: 900px;
+  margin-bottom: 70px;
+  display: inline-block;
+}
+
 .cover {
   display: inline-block;
   vertical-align: top;
@@ -163,22 +173,17 @@ img {
 }
 
 .tariffs__list {
-  padding-top: 40px;
-  padding-left: 130px;
-  font-size: 0px;
+   font-size: 0px;
 }
 
 .title {
-  display: block;
-  margin-left: 195px;
-  margin-top: 40px;
-  width: 180px;
-  height: 47px;
+  display: block; 
   color: #262424;
   font-family: Roboto;
   font-size: 49px;
   font-weight: 700;
   line-height: 38px;
+  margin-bottom: 60px;
 }
 
 .tariffs__content-icon {
@@ -189,6 +194,7 @@ img {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25px;
 }
 
 .tariffs__content-pic {
@@ -203,7 +209,6 @@ img {
   width: 79px;
   text-align: center;
   display: inline-block;
-  padding-top: 30px;
 }
 
 .tariffs__content {
@@ -249,14 +254,14 @@ h4 {
 
 .tariffs__price {
   display: inline-block;
-  margin-top: 25px;
 }
 
 .tariffs__service {
   display: block;
   list-style-type: initial;
   text-align: left;
-  margin-left: 30px;
+  margin-bottom: 30px;
+  padding-left: 30px;
 }
 
 
@@ -324,9 +329,6 @@ line-height: 21px;
 
 .pagination {
   text-align: center;
-  margin-top: 50px;
-  height: 40px;
-  margin-left: 260px;
 }
 
 .pagination__display {
@@ -342,7 +344,7 @@ line-height: 21px;
 
 .pagination__controlls {
   display: inline-block;
-  width: 370px;
+  vertical-align: middle;
 }
 
 
@@ -351,6 +353,8 @@ line-height: 21px;
 }
 
 .pagination__list {
+  display: inline-block;
+  vertical-align: middle;
   list-style: none;
   height: 30px;
   padding-top: 5px;
@@ -384,20 +388,24 @@ line-height: 21px;
 }
 
 .pagination__left {
+  display: inline-block;
   vertical-align: middle;
   text-decoration: none;
   width: 6px;
   height: 10px;
   opacity: 0.3;
   color: #262424;
+  float: left;
 }
 
 .pagination__right {
-  text-decoration: none;
+  display: inline-block;
   vertical-align: middle;
+  text-decoration: none;
   width: 6px;
   height: 10px;
   color: #262424;
+  float: right;
 }
 
 .pagination__link--active {
@@ -413,7 +421,7 @@ line-height: 21px;
 .footer{
   color: #fff;
   background-color: #5973b1;
-  margin-top: 60px;
+  padding-top: ;
 }
 
 .footer__container{
@@ -428,7 +436,7 @@ line-height: 21px;
   left: 15px;
   font-family: Roboto;
   font-size: 14px;
-  padding-top: 10px;
+  top: 10px;
 }
 
 .copyright__link{
@@ -449,13 +457,11 @@ height: 36px;
 
 .socials{
   position: absolute;
-  height: 77px;
   left: 880px;
   text-align: center;
 }
 
 .socials__title{
-  height: 40px;
 color: #ffffff;
 font-family: Roboto;
 font-size: 14px;
@@ -483,7 +489,6 @@ line-height: 50px;
 
 .socials__list{
   list-style: none;
-  width: 200px;
   height: 30px; 
 }
 
