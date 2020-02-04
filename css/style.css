@@ -18,10 +18,13 @@ img {
 .header {
   color: #fff;
   background-color: #5973b1;
+  margin-bottom: 10px;
 }
 
 .header__container {
   height: 77px;
+  margin-bottom: 10px;
+
 }
 
 .container {
@@ -72,13 +75,13 @@ img {
 .navigation{
   width: 200px;
   display: inline-block;
+  float: left;
 }
 
 .sidebar {
   width: 190px;
   display: inline-block;
   vertical-align: top;
-  padding-top: 25px;
 }
 
 .menu__link {
@@ -115,6 +118,7 @@ img {
 .menu__list {
   list-style: none;
   padding-left: 15px;
+  padding-top: 10px;
 }
 
 .menu__item--icon--plain .menu__link:before {
@@ -149,7 +153,7 @@ img {
 /*ОБЛОЖКА*/
 
 .content{
-  width: 900px;
+  width: 890px;
   margin-bottom: 70px;
   display: inline-block;
 }
@@ -158,7 +162,6 @@ img {
   display: inline-block;
   vertical-align: top;
   width: 880px;
-  padding-top: 12px;
 }
 
 .cover-pic {
@@ -169,7 +172,7 @@ img {
 /*ТАРИФЫ*/
 
 .tariffs {
-  text-align: center;
+  margin-bottom: 60px;
 }
 
 .tariffs__list {
@@ -177,7 +180,6 @@ img {
 }
 
 .title {
-  display: block; 
   color: #262424;
   font-family: Roboto;
   font-size: 49px;
@@ -268,15 +270,14 @@ h4 {
 /*НОВОСТИ*/
 
 .news__title {
-  display: inline-block;
-  margin-left: 200px;
-  margin-top: 90px;
+  display: inline-block; 
   height: 43px;
   color: #262424;
   font-family: Roboto;
   font-size: 49px;
   font-weight: 700;
   line-height: 38px;
+  margin-bottom: 70px;
 }
 
 .news__list {
@@ -290,19 +291,17 @@ h4 {
   background-color: #d0d7db;
   border-radius: 50%;
   overflow: hidden;
-  margin-right: 15px;
 }
 
 .news-item {
-  margin-top: 60px;
-  text-align: left;
-  margin-left: 195px;
+  margin-bottom: 50px;
 }
 
 .news__content {
   display: inline-block;
   width: 570px;
   position: absolute;
+  margin-left: 20px;
 }
 
 .news__time {
@@ -334,12 +333,12 @@ line-height: 21px;
 .pagination__display {
   display: inline-block;
   vertical-align: sub;
+  width: 140px;
   color: #656464;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 300;
   line-height: 21px;
-  height: 30px;
 }
 
 .pagination__controlls {
@@ -354,12 +353,9 @@ line-height: 21px;
 
 .pagination__list {
   display: inline-block;
-  vertical-align: middle;
   list-style: none;
-  height: 30px;
-  padding-top: 5px;
   font-size: 0;
-  width: 260px;
+  width: 200px;
 }
 
 .pagination__item {
@@ -395,7 +391,6 @@ line-height: 21px;
   height: 10px;
   opacity: 0.3;
   color: #262424;
-  float: left;
 }
 
 .pagination__right {
@@ -405,7 +400,6 @@ line-height: 21px;
   width: 6px;
   height: 10px;
   color: #262424;
-  float: right;
 }
 
 .pagination__link--active {
@@ -432,7 +426,6 @@ line-height: 21px;
   display: inline-block;
   position: absolute;
   width: 245px;
-  height: 77px;
   left: 15px;
   font-family: Roboto;
   font-size: 14px;
@@ -466,7 +459,7 @@ color: #ffffff;
 font-family: Roboto;
 font-size: 14px;
 font-weight: 600;
-line-height: 50px;
+line-height: 42px;
  text-align: center; 
   
 }
@@ -488,8 +481,7 @@ line-height: 50px;
 }
 
 .socials__list{
-  list-style: none;
-  height: 30px; 
+  list-style: none; 
 }
 
 .socials__link{
