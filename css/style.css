@@ -154,7 +154,6 @@ img {
 
 .content{
   width: 890px;
-  margin-bottom: 70px;
   display: inline-block;
 }
 
@@ -269,9 +268,12 @@ h4 {
 
 /*НОВОСТИ*/
 
+.news{
+  margin-bottom: 30px;
+}
+
 .news__title {
   display: inline-block; 
-  height: 43px;
   color: #262424;
   font-family: Roboto;
   font-size: 49px;
@@ -286,6 +288,7 @@ h4 {
 
 .news__photo {
   display: inline-block;
+  position: relative;
   width: 160px;
   height: 160px;
   background-color: #d0d7db;
@@ -293,8 +296,19 @@ h4 {
   overflow: hidden;
 }
 
+.news__photo-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 .news-item {
   margin-bottom: 50px;
+}
+
+.news-item:nth-child(3){
+  margin-bottom: 0;
 }
 
 .news__content {
@@ -415,6 +429,7 @@ line-height: 21px;
 .footer{
   color: #fff;
   background-color: #5973b1;
+  margin-top: 70px;
 }
 
 .footer__container{
@@ -463,9 +478,9 @@ line-height: 42px;
   
 }
 
-.socials__controlls{
-  padding-right: 50px;
-}
+
+  
+
 
 .socials__item{
   display: inline-block;
@@ -479,8 +494,13 @@ line-height: 42px;
   background-color: #d4ddf2;
 }
 
+.socials__item:nth-child(4){
+  margin-right: 0;
+}
+
 .socials__list{
   list-style: none; 
+  text-align: left;
 }
 
 .socials__link{
