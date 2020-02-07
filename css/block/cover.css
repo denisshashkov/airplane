@@ -1,0 +1,10 @@
+.cover {
+  display: flex;
+   width: 890px;
+ }
+ 
+ .cover-pic {
+   width: 866px;
+   height: 307px;
+   flex: 1;
+ }
