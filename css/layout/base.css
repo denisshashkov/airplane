@@ -24,6 +24,7 @@ main{
 
 .container-flex{
   display: flex;
+  margin-bottom: 60px;
 }
 
 .content{

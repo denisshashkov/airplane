@@ -3,9 +3,8 @@
 }
 
 .tariffs__list {
-   font-size: 0px;
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
 }
 
 .title {
@@ -13,8 +12,7 @@
   font-family: Roboto;
   font-size: 49px;
   font-weight: 700;
-  line-height: 38px;
-  margin-bottom: 60px;
+  line-height: 0px;
 }
 
 .tariffs__content-icon {
