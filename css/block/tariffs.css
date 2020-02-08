@@ -1,10 +1,10 @@
 .tariffs {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .tariffs__list {
    display: flex;
-   justify-content: center;
+  
 }
 
 .title {
@@ -12,7 +12,7 @@
   font-family: Roboto;
   font-size: 49px;
   font-weight: 700;
-  line-height: 0px;
+  margin-bottom: 90px;
 }
 
 .tariffs__content-icon {
@@ -23,8 +23,7 @@
   height: 68px;
   background-color: #5972b1;
   border-radius: 50%;
- 
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 
@@ -32,7 +31,11 @@
   display: flex;
     align-items: center;
     flex-flow: column;
-  
+    margin-right: 50px;
+}
+
+.tariffs__content:nth-child(3){
+  margin-right: 0;
 }
 
 h4 {
@@ -52,7 +55,7 @@ h4 {
   font-family: Roboto;
   font-size: 18px;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .tariffs__item {

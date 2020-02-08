@@ -1,5 +1,5 @@
 .news{
-  margin-bottom: 30px;
+  margin-bottom: 37px;
 }
 
 .news__title {
@@ -30,7 +30,7 @@
  
  .news-item {
    display: flex;
-   margin-bottom: 50px;
+   margin-bottom: 27px;
  }
  
  .news-item:nth-child(3){
@@ -52,10 +52,12 @@
   font-family: "Roboto - Bold";
 font-weight: 700;
 line-height: 21px;
+font-size: 20px;
 }
 
 .news__text {
   font-family: "Roboto Light";
   font-weight: 300;
-  line-height: 22px;
+  line-height: 28px;
+  font-size: 20px;
 }
