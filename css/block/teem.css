@@ -2,7 +2,9 @@
   margin-top: 30px;
 }
 
-
+.title-teem{
+  line-height: 34px;
+}
 
 .teem__list {
   display: flex;
@@ -12,8 +14,20 @@
 }
 
 .teem__content {
-  width: 30%;
-  margin-bottom: 20px;
+  width: 31%;
+  margin-bottom: 40px;
+}
+
+.teem__content:nth-child(4n){
+  margin-bottom: 0px;
+}
+
+.teem__content:nth-child(5n){
+  margin-bottom: 0px;
+}
+
+.teem__content:nth-child(6n){
+  margin-bottom: 0px;
 }
 
 .teem__left-col{
