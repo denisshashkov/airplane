@@ -3,7 +3,10 @@
 }
 
 .title-teem{
-  line-height: 34px;
+color: #262424;
+font-family: Roboto;
+font-size: 49px;
+line-height: 35px;
 }
 
 .teem__list {
