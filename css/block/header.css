@@ -38,3 +38,8 @@
   font-family: Roboto;
   text-decoration: underline;
 }
+
+.contacts__workhours:hover{
+  cursor: pointer;
+  color:white;
+}

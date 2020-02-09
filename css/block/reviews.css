@@ -2,9 +2,7 @@
   color: #262424;
   font-family: Roboto;
   font-size: 49px;
-  font-weight: 700;
   line-height: 38px;
-  margin-bottom: 70px;
 }
 
 .reviews__avatar {
@@ -21,7 +19,7 @@
  }
 
  .reviews{
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .reviews__list {
@@ -30,7 +28,7 @@
 
  .reviews-item {
    display: flex;
-   margin-bottom: 50px;
+   margin-bottom: 60px;
  }
  
  .reviews-item:nth-child(4){
@@ -51,12 +49,11 @@
 .reviews-username {
   font-family: "Roboto - Bold";
   font-weight: 900;
-  line-height: 21px;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .reviews__text {
  font-family: "Roboto Light";
  line-height: 22px;
- font-size: 18px;
+ font-size: 20px;
 }

@@ -42,7 +42,7 @@ width: 230px;
    text-align: center; 
    }
 
-   .socials__item{
+   .socials__item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,9 @@ width: 230px;
     background-color: #d4ddf2;
   }
   
-  
+  .socials__item:hover{
+    background-color: #fff;
+  }
   
   .socials__item:nth-child(4){
     margin-right: 0;
