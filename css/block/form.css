@@ -6,6 +6,7 @@
 .form {
   padding: 52px 5%;
   width: 700px;
+  background-color: #f4f4f4;
 }
 
 .form__title{
@@ -130,14 +131,9 @@ color:#5972b1;
 .switch-controls__radio{
   width: 20px;
 height: 20px;
-border: 1px solid #5972b1;
+border: 1px solid;
 }
 
-.switch-controls__radio{
-  color: #5972b1;
-}
-.switch-controls__elem-title:hover{
-  color: #5972b1;
+.switch-controls__elem-title{
   cursor: pointer;
 }
-
