@@ -1,0 +1,73 @@
+.tariffs {
+  margin-bottom: 95px;
+}
+
+.tariffs__list {
+   display: flex;
+  
+}
+
+.title {
+  color: #262424;
+  font-family: Roboto;
+  font-size: 49px;
+}
+
+.tariffs__content-icon {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 68px;
+  height: 68px;
+  background-color: #5972b1;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+
+.tariffs__content {
+  display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin-right: 67px;
+}
+
+.tariffs__content:nth-child(3){
+  margin-right: 0;
+}
+
+h4 {
+  height: 10px;
+  color: #262626;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.88px;
+}
+
+.tariffs__text {
+  width: 185px;
+  text-align: center;
+  color: #262424;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.tariffs__item {
+  width: 185px;
+  color: #262424;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+.tariffs__service {
+  list-style-type: initial;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}

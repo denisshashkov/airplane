@@ -1,0 +1,26 @@
+.compressed-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color:#76b46f;
+  background-image: url(../../image/comments/pattern.png);
+  padding: 24px 20%;
+  margin-bottom: 53px;
+}
+
+.support__text{
+color: #ffffff;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+}
+
+.support__request{
+font-weight: 700;
+color: #ffffff;
+}
+
+.support{
+  width: 60%;
+}

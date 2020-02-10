@@ -3,10 +3,9 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title></title>
-	<link rel="stylesheet" href="./normalize.css">
+	<title>Airplanet</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700&display=swap&subset=cyrillic" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -20,32 +19,32 @@
 				<img src="image/logo_header.png" class="logo__img" alt="air planet">
 			</a>
 			</div>
-			<div class="contacts">
+			<address class="contacts">
 				<a href="tel:88000039210" class="contacts__phone">8 (800) 00 - 392 - 10</a>
 				<div class="contacts__workhours">График работы</div>
-			</div>
+			</address>
 			</div>
 		</header>
 
 		<main>
-     <div class="container">
-			 <div class="navigation">
-		  <div class="sidebar">
+     <div class="container container-flex">
+			 
+		  <aside class="sidebar">
 				<nav class="menu">
 					<ul class="menu__list">
 						<li class="menu__item menu__item--icon--plain menu__item--active">
 							<a href="#" class="menu__link">Главная</a>
 						</li>
 						<li class="menu__item menu__item--icon--feed ">
-							<a href="#" class="menu__link">Отзывы</a>
+							<a href="comments.html" class="menu__link">Отзывы</a>
 						</li>
 						<li class="menu__item menu__item--icon--teem">
-							<a href="#" class="menu__link">Экипаж</a>
+							<a href="teem.html" class="menu__link">Экипаж</a>
 						</li>
 					</ul>
 				</nav>
-			</div>
-			 </div> 
+			</aside>
+			 
 
 
 
@@ -118,43 +117,49 @@
 				<h2 class="news__title">Последние новости</h2>
 				<ul class="news__list">
 					<li class="news-item">
+						<div class="news__left-col">
 						<div class="news__photo">
-							<img src="image/planeflying1.png" alt="#" class="news__photo-img">
+							<img src="image/planeflying.png" alt="#" class="news__photo-img">
 						</div>
-						<div class="news__content">
+						</div>
+						<article class="news__content">
 							<time class="news__time">12.10.2016</time>
 							<div class="news__ad">Ночные перелеты дешевле!</div>
 							<p class="news__text">Летящий в ночном небе самолет — зрелище загадочное и романтическое. Крылатая машина
 								величественно плывет в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена
 								удивительными людьми, спешащими далеко-далеко по очень важным делам. </p>
-						</div>
+						</article>
 					</li>
 
 					<li class="news-item">
+						<div class="news__left-col">
 						<div class="news__photo">
 							<img src="image/Photo.png" alt="#" class="news__photo-img">
 						</div>
-						<div class="news__content">
+						</div>
+						<article class="news__content">
 							<time class="news__time">01.02.2016</time>
 							<div class="news__ad">Путешествие в Грузию стало доступнее</div>
 							<p class="news__text">Экскурсии по Грузии в 2017 году от русских гидов: самые интересные маршруты в Грузии
 								от профессиональных гидов. Обзорные, пешеходные, автомобильные, тематические экскурсии по интересным
 								городам и курортам Грузии. Не пропустите такую возможность! </p>
-						</div>
+						</article>
 					</li>
 
 					<li class="news-item">
+						<div class="news__left-col">
 						<div class="news__photo">
-							<img src="image/Layer_5.png" alt="#" class="news__photo-img">
+							<img src="image/boy.png" alt="#" class="news__photo-img">
 						</div>
-						<div class="news__content">
+						</div>
+						<article class="news__content">
 							<time class="news__time">22.12.2015</time>
 							<div class="news__ad">Детские авиабилеты доступны для бизнес-класса</div>
 							<p class="news__text">Путешествие на самолете с детьми - небольшое испытание для родителей.
 								Но это не экстремальное приключение, а обычный цивилизованный подход.Тем более, различные авиакомпании
 								стараются помочь скидками на детские авиабилеты, специальным питанием и другими услугами на борту
 								лайнера.</p>
-						</div>
+						</article>
 					</li>
 				</ul>
 			</section>

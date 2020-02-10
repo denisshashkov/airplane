@@ -1,0 +1,45 @@
+.header {
+  color: #fff;
+  background-color: #5973b1;
+  margin-bottom: 10px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10px;
+  min-height: 77px;
+}
+
+.logo__img {
+  width: 120px;
+  height: 36px;
+}
+
+.contacts {
+  font-style: normal;
+  text-align: right;
+  padding-right: 20px;
+  
+}
+
+.contacts__phone {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Roboto;
+}
+
+.contacts__workhours {
+  font-weight: bold;
+  font-size: 14px;
+  opacity: .7;
+  font-family: Roboto;
+  text-decoration: underline;
+}
+
+.contacts__workhours:hover{
+  cursor: pointer;
+  color:white;
+}

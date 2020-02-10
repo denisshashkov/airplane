@@ -1,0 +1,139 @@
+.form-container{
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  padding: 52px 5%;
+  width: 700px;
+  background-color: #f4f4f4;
+}
+
+.form__title{
+color: #262424;
+font-family: Roboto;
+font-size: 49px;
+font-weight: 700;
+line-height: 38px;
+margin-bottom: 30px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.form__row:last-child {
+  margin-bottom: 0;
+}
+
+.form__input--textarea {
+  resize: vertical;
+height: 90px;
+border: 1px solid #5972b1;
+color: #262424;
+font-family: Roboto;
+font-size: 14px;
+border-radius: 5px;
+}
+
+.switch-controls__title{
+font-family: Roboto;
+font-size: 14px;margin-bottom: 10px;
+}
+
+.switch-controls__elem-title{
+  display: flex;
+  margin-left: 4px;
+}
+
+.switch-controls__elem{
+  display: flex;
+  align-items: center;
+}
+
+.switch-controls__buttons{
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}
+
+.switch-controls__radio{
+  cursor: pointer;
+}
+
+.form__input:focus {
+  outline: none;
+}
+
+.form__input {
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+
+.form__elem-title{
+  margin-bottom: 5px;
+}
+
+.form__block {
+  flex: 1;
+  margin-left: 23px;
+}
+
+.form__block:first-child {
+  margin-left: 0;
+}
+
+.form__input {
+  background: #fff;
+  width: 100%;
+  padding: 12px 9px;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: #5972b1;
+}
+
+
+.form__buttons-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+width: 154px;
+height: 45px;
+border-radius: 5px;
+background-color: #5972b1;
+background-repeat: no-repeat;
+background-image: url('../../image/comments/icon.png');
+background-position: 95%;
+color: #fff;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+cursor: pointer;
+border: 0;
+}
+
+.btn:hover{
+  background-color: #fff;
+  background-repeat: no-repeat;
+background-image: url('../../image/plain3.png');
+background-position: 95%;
+color:#5972b1;
+}
+
+.switch-controls__radio{
+  width: 20px;
+height: 20px;
+border: 1px solid;
+}
+
+.switch-controls__elem-title{
+  cursor: pointer;
+}

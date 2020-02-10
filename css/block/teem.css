@@ -1,0 +1,130 @@
+.top-nav {
+  margin-top: 30px;
+}
+
+.title-teem{
+color: #262424;
+font-family: Roboto;
+font-size: 49px;
+line-height: 35px;
+}
+
+.teem__list {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  list-style: none;
+}
+
+.teem__content {
+  width: 31%;
+  margin-bottom: 40px;
+}
+
+.teem__content:nth-child(4n){
+  margin-bottom: 35px;
+}
+
+.teem__content:nth-child(5n){
+  margin-bottom: 35px;
+}
+
+.teem__content:nth-child(6n){
+  margin-bottom: 35px;
+}
+
+.teem__left-col{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.teem__content-avatar{
+  position: relative;
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.teem__content-avatar::after{
+  position: absolute;
+  content: url('../../image/teem/fon.png');
+}
+
+.teem__content-pic {
+  position: absolute;
+  display: block;
+  max-width: 100%;
+}
+
+.teem__name{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+
+.teem__username{
+  font-family: "Roboto - Bold";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.teem__profession{
+  color: #5972b1;
+font-family: "Roboto - Bold";
+font-weight: 700;
+text-align: center;
+}
+
+.teem__text{
+  font-family: "Roboto Light";
+font-weight: 300;
+text-align: center;
+}
+
+.partners__title{
+color: #262424;
+font-family: Roboto;
+font-size: 49px;
+}
+
+.partners__list{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  list-style: none;
+}
+
+.partners__content{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  margin-bottom: 60px;
+}
+
+.partners__content:nth-child(3n){
+  margin-right: 0;
+}
+
+.partners__content-pic{
+  filter: grayscale(1);
+  opacity: 0.9;
+}
+
+.partners__content-pic:hover{
+  filter: none;
+}
