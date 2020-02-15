@@ -24,15 +24,20 @@
 
 .reviews__list {
   list-style: none;
+  display: flex;
+  flex-flow: column;
 }
 
  .reviews-item {
    display: flex;
-   margin-bottom: 60px;
+   border-bottom: 1px solid #f4f4f4;
+   padding: 10px;
+   margin-bottom: 25px;
  }
  
  .reviews-item:nth-child(4){
    margin-bottom: 0;
+   border: none;
  }
  
  .reviews__content {
@@ -54,6 +59,6 @@
 
 .reviews__text {
  font-family: "Roboto Light";
- line-height: 22px;
+ line-height: 30px;
  font-size: 20px;
 }

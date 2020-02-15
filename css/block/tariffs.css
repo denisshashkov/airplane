@@ -1,10 +1,16 @@
-.tariffs {
-  margin-bottom: 95px;
+.tariffs{
+  border: 1px solid #e8e8ec;
+  padding: 20px 40px 35px 40px;
+  margin-bottom: 30px;
+}
+
+.tariffs-top {
+  text-align: center;
 }
 
 .tariffs__list {
    display: flex;
-  
+   justify-content: center; 
 }
 
 .title {
@@ -29,7 +35,6 @@
   display: flex;
     align-items: center;
     flex-flow: column;
-    margin-right: 67px;
 }
 
 .tariffs__content:nth-child(3){
@@ -47,13 +52,12 @@ h4 {
 }
 
 .tariffs__text {
-  width: 185px;
   text-align: center;
   color: #262424;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 300;
-  line-height: 20px;
+  line-height: 15px;
 }
 
 .tariffs__item {
@@ -69,5 +73,5 @@ h4 {
 .tariffs__service {
   list-style-type: initial;
   margin-bottom: 30px;
-  padding-left: 30px;
+  padding-left: 45px;
 }

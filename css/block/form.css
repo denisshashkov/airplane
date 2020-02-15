@@ -58,9 +58,69 @@ font-size: 14px;margin-bottom: 10px;
   width: 110px;
 }
 
+
 .switch-controls__radio{
+  position: absolute;
+  top: 0;
+  left: -9999px;
+}
+
+
+.switch-controls__radio:checked+.switch-controls__visible {
+  border-color: #1c5bc3;
+}
+
+.switch-controls__radio:checked+.switch-controls__visible:after {
+  width: 8px;
+  height: 8px;
+}
+
+.switch-controls__radio:checked+.switch-controls__visible+.switch-controls__elem-title {
+  color: #1c5bc3;
+}
+
+.switch-controls__visible,
+.switch-controls__elem-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.switch-controls__visible {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #cbcbcb;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: .3s;
+  background: #fdfdfd;
+}
+
+.switch-controls__visible:after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1c5bc3;
+  transition: .3s;
+}
+
+.switch-controls__elem-title{
+  margin-left: 5px;
+  transition: .3s;
+}
+
+.switch-controls__elem{
   cursor: pointer;
 }
+
+
+
 
 .form__input:focus {
   outline: none;
@@ -102,38 +162,54 @@ font-size: 14px;margin-bottom: 10px;
   justify-content: space-between;
 }
 
+
 .btn{
-width: 154px;
-height: 45px;
-border-radius: 5px;
-background-color: #5972b1;
-background-repeat: no-repeat;
-background-image: url('../../image/comments/icon.png');
-background-position: 95%;
-color: #fff;
-font-family: Roboto;
-font-size: 12px;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: 2.4px;
-cursor: pointer;
-border: 0;
+  position: relative;
+  width: 154px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #5972b1;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  cursor: pointer;
+  border: 0;
+  }
+  
+
+
+.btn-icon::after{
+  content: '';
+  width: 15px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  top: 81%;
+  left: 72%;
+  background: url('../../image/sprites2.png')-45px -86px;
 }
+
 
 .btn:hover{
   background-color: #fff;
-  background-repeat: no-repeat;
-background-image: url('../../image/plain3.png');
-background-position: 95%;
-color:#5972b1;
+  color: #5972b1;
 }
 
-.switch-controls__radio{
-  width: 20px;
-height: 20px;
-border: 1px solid;
-}
 
-.switch-controls__elem-title{
-  cursor: pointer;
-}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+

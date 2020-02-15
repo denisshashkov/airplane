@@ -12,6 +12,7 @@
 }
 
 .news__list {
+  display: flex;
   list-style: none;
 }
 
@@ -30,17 +31,21 @@
  
  .news-item {
    display: flex;
+   flex-flow: column;
+   align-items: center;
+   margin-right: 20px;
    margin-bottom: 27px;
    border-bottom: 1px solid #f4f4f4;
  }
 
  .news-item:nth-child(3){
-   margin-bottom: 0;
-   border-bottom: none;
+  margin-right: 0;
  }
  
- .news__content {
-   margin-left: 20px;
+ .news__top-col{
+   margin-bottom: 40px;
+ } 
+   
  }
  
  .news__time {
@@ -62,4 +67,5 @@ font-size: 20px;
   font-weight: 300;
   line-height: 28px;
   font-size: 20px;
+  margin: 0;
 }

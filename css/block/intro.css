@@ -1,0 +1,55 @@
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../../image/intro/background.png');
+  width: 1100px;
+  height: 737px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.intro__animation{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.intro__animation--logo{
+  margin-bottom: 40px;
+}
+
+.intro-btn{
+  display: block;
+  width: 210px;
+height: 45px;
+border-radius: 5px;
+background-position: 95%;
+background: rgba(0,0,0,0);
+color: #2863c4;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+cursor: pointer;
+border: 1px solid #2863c4;
+background-image: url('../../image/main_icon.png');
+background-repeat: no-repeat;
+background-position: 95%;
+}
+
+.intro-btn:hover{
+  background-color: #3a5bbf;
+  color: #fff;
+  transition: 0.3s;
+  background-image: url('../../image/intro/icon.png');
+}
+
+
+
+.intro-way{
+  text-decoration: none;
+}

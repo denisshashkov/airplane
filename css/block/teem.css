@@ -1,6 +1,3 @@
-.top-nav {
-  margin-top: 30px;
-}
 
 .title-teem{
 color: #262424;
@@ -95,25 +92,28 @@ text-align: center;
 }
 
 .partners__title{
-color: #262424;
-font-family: Roboto;
-font-size: 49px;
+  color: #262424;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
 }
 
 .partners__list{
   display: flex;
   justify-content: center;
-  flex-flow: wrap;
+  flex-wrap: wrap;
+  flex-flow: column;
+  align-items: center;
   list-style: none;
 }
 
 .partners__content{
-  width: 30%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 30px;
-  margin-bottom: 60px;
+align-items: center;
+flex-basis: 180px;
 }
 
 .partners__content:nth-child(3n){
