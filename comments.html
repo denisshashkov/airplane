@@ -19,9 +19,13 @@
       <img src="image/logo_header.png" class="logo__img" alt="air planet">
     </a>
     </div>
-    <address class="contacts">
-      <a href="tel:88000039210" class="contacts__phone">8 (800) 00 - 392 - 10</a>
-      <div class="contacts__workhours">График работы</div>
+    <address class="contacts"><a class="contacts__phone" href="88000039210">8 (800) 00-392-10</a>
+      <div class="contacts__times"><a class="contacts__times-trigger" href="#">График работы</a>
+        <div class="contacts__dropdown">
+          <div class="contacts__days">пн-вс: 09:00 - 20:00</div>
+          <div class="contacts__worktimes">обед: 14:00 - 14:30</div>
+        </div>
+      </div>
     </address>
     </div>
   </header>
@@ -230,10 +234,10 @@
           </div>
         </div>
         <div class="form__buttons">
-         <input type="submit" class="btn" value="отправить">
-         <div class="btn-icon">
-           <img src="" alt="" class="">
-         </div>  
+         <button type="submit" class="btn" value="">
+          <div class="form__submit-text">Отправить</div>
+              <div class="btn-icon"></div>     
+         </button>
         </div>
         </div>
     </div>
