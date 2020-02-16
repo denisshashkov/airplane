@@ -163,8 +163,9 @@ font-size: 14px;margin-bottom: 10px;
 }
 
 
-.btn{
-  position: relative;
+.btn::before{
+  content: '';
+  display: block;
   width: 154px;
   height: 45px;
   border-radius: 5px;
@@ -179,30 +180,15 @@ font-size: 14px;margin-bottom: 10px;
   border: 0;
   }
   
-.btn:hover{
-   background-color: #f4f4f4;
-  color: #5972b1;
-  transition: .4s;
-}
 
-.btn:hover{
-  background-image: url('../../image/sprites2.png')-10px -86px;
-  background-repeat: no-repeat;
-}
+  
 
-.btn-icon::before{
-  content: '';
-  width: 15px;
-  height: 14px;
-  display: block;
-  position: absolute;
-  top: 33%;
-  left: 82%;
-  background: url('../../image/sprites2.png')-45px -86px;
-}
 
-.btn-icon:hover::before{
-  background: url('../../image/sprites2.png')-10px -86px;
-}
+
+
+
+
+
+
 
 
