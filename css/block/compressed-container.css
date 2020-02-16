@@ -3,20 +3,21 @@
   background-color: #5972b1;
   padding: 10px;
   margin-bottom: 19px;
-
+}
   
   
-  
- 
-
   .support__text{
 color: #ffffff;
 font-family: Roboto;
 font-size: 18px;
 font-weight: 300;
-line-height: 29px;
-margin: 0;
-}
+line-height: 30px;
+font-family: "Roboto Light";
+font-weight: 300
+  }
+ 
+
+ 
 
 .support__request{
 font-weight: 700;
