@@ -14,7 +14,7 @@ line-height: 35px;
 }
 
 .teem__content {
-  width: 31%;
+  width: 33%;
   margin-bottom: 40px;
 }
 
@@ -33,7 +33,7 @@ line-height: 35px;
 .teem__left-col{
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .teem__content-avatar{
@@ -72,7 +72,7 @@ line-height: 35px;
 
 .teem__username{
   font-family: "Roboto - Bold";
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 5px;
@@ -83,17 +83,20 @@ line-height: 35px;
 font-family: "Roboto - Bold";
 font-weight: 700;
 text-align: center;
+font-size: 15px;
 }
 
 .teem__text{
   font-family: "Roboto Light";
 font-weight: 300;
 text-align: center;
+line-height: 19px;
+width: 94%;
 }
 
 .partners{
   border: 1px solid #e8e8ec;
-  margin-bottom: 15px;
+  margin-bottom: 22px;
 }
 
 .partners__title{
@@ -108,7 +111,6 @@ text-align: center;
 
 .partners__list{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   flex-flow: column;
   align-items: center;
@@ -118,9 +120,10 @@ text-align: center;
 .partners__content{
   display: flex;
 align-items: center;
-width: 100%;
+width: 54%;
 justify-content: center;
 padding: 17px;
+margin-bottom: 14px;
 }
 
 
