@@ -1,11 +1,15 @@
+h4{
+  margin: 0;
+}
+
 .tariffs{
   border: 1px solid #e8e8ec;
-  padding: 20px 40px 35px 40px;
-  margin-bottom: 30px;
+  padding: 0px 18px 38px 40px;
 }
 
 .tariffs-top {
   text-align: center;
+  font-size: 23px;
 }
 
 .tariffs__list {
@@ -72,6 +76,6 @@ h4 {
 
 .tariffs__service {
   list-style-type: initial;
-  margin-bottom: 30px;
+  margin-bottom: 9px;
   padding-left: 45px;
 }
