@@ -1,5 +1,5 @@
 .news{
-  margin-bottom: 37px;
+  margin-bottom: 15px;
 }
 
 .news__title {
@@ -36,8 +36,6 @@
    flex-flow: column;
    align-items: center;
    margin-right: 20px;
-   margin-bottom: 27px;
-   border-bottom: 1px solid #f4f4f4;
  }
 
  .news-item:nth-child(3){
@@ -45,7 +43,7 @@
  }
  
  .news__top-col{
-   margin-bottom: 40px;
+   margin-bottom: 44px;
  } 
    
  }
@@ -67,7 +65,4 @@ font-size: 20px;
 .news__text {
   font-family: "Roboto Light";
   font-weight: 300;
-  line-height: 28px;
-  font-size: 20px;
-  margin: 0;
 }

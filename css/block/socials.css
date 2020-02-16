@@ -6,6 +6,7 @@
   font-weight: 600;
   line-height: 30px;
   text-align: center;
+  padding-left: 14px;
 }
 
 .socials__item {
@@ -14,7 +15,7 @@
   height: 20px;
   line-height: 21px;
   border-radius: 50%;
-  margin-right: 4px;
+  margin-right: 8px;
 }
 
 .socials__item:after {
