@@ -162,10 +162,7 @@ font-size: 14px;margin-bottom: 10px;
   justify-content: space-between;
 }
 
-
-.btn::before{
-  content: '';
-  display: block;
+.btn{
   width: 154px;
   height: 45px;
   border-radius: 5px;
@@ -177,7 +174,17 @@ font-size: 14px;margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 2.4px;
   cursor: pointer;
-  border: 0;
+  border: 0; 
+}
+
+.btn::before{
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url('../../image/sprites2.png')-45px -86px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   }
   
 
