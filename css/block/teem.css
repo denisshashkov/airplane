@@ -96,7 +96,8 @@ width: 94%;
 
 .partners{
   border: 1px solid #e8e8ec;
-  margin-bottom: 22px;
+  margin-bottom: 33px;
+  margin-left: 21px;
 }
 
 .partners__title{
@@ -107,6 +108,7 @@ width: 94%;
   font-weight: 700;
   line-height: 38px;
   text-transform: uppercase;
+  margin-bottom: 7px;
 }
 
 .partners__list{

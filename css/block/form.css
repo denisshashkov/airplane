@@ -19,7 +19,7 @@ margin-bottom: 24px;
 
 .form__row {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .form__row:last-child {
@@ -29,7 +29,7 @@ margin-bottom: 24px;
 .form__input--textarea {
   resize: vertical;
 height: 90px;
-width: 96%;
+width: 92%;
 padding: 5px;
 border: 1px solid #5972b1;
 color: #262424;
@@ -147,7 +147,7 @@ font-size: 14px;margin-bottom: 10px;
 
 .form__input {
   background: #fff;
-  width: 92%;
+  width: 84%;
   padding: 12px 9px;
 }
 
@@ -160,6 +160,7 @@ font-size: 14px;margin-bottom: 10px;
 .form__buttons-row{
   display: flex;
   justify-content: space-between;
+  padding-right: 51px;
 }
 
 .btn{
