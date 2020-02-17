@@ -177,18 +177,31 @@ font-size: 14px;margin-bottom: 10px;
   border: 0; 
 }
 
-.btn::before{
+.btn:hover{
+  background-color: #f4f4f4;
+  color: #5972b1;
+  transition: 0.4s;
+}
+
+.btn::after{
   content: '';
   display: inline-block;
+  vertical-align: middle;
   width: 15px;
   height: 15px;
-  background-image: url('../../image/sprites2.png')-45px -86px;
+  background-image: url('../../image/sprites2.png');
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: -45px -86px;
   }
   
+  .btn:hover::after{
+    background-position: -10px -86px;
+  }
 
-  
+  .form__submit-text{
+    display: inline-block;
+    vertical-align: middle;
+  }
 
 
 

@@ -23,8 +23,6 @@
 }
 
 
-
-
 .intro-way {
   display: flex;
   justify-content: center;
@@ -42,23 +40,33 @@
   letter-spacing: 2.4px;
   cursor: pointer;
   border: 1px solid #2863c4;
-  background-image: url('../../image/sprites2.png')-10px -86px;
-  background-repeat: no-repeat;
-  background-position: 95%;
+  text-decoration: none;
 }
 
 .intro-way:hover {
   background-color: #3a5bbf;
   color: #fff;
   transition: 0.3s;
-  background-image: url('../../image/intro/icon.png');
+}
+
+.intro-way::after{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  background-image: url('../../image/sprites2.png');
+  background-repeat: no-repeat;
+  background-position: -10px -86px;
+  margin-left: 8px;
+}
+
+.intro-way:hover::after{
+  background-position: -45px -86px;
 }
 
 
 
-.intro-way {
-  text-decoration: none;
-}
 
 @keyframes bounce {
 
