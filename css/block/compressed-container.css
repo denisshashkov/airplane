@@ -1,8 +1,10 @@
 .compressed-container{
   text-align: center;
   background-color: #5972b1;
-  padding: 10px;
-  margin-bottom: 19px;
+  padding: 8px;
+  width: 93%;
+  margin-left: 20px;
+  margin-bottom: 14px;
 }
   
   
@@ -16,7 +18,13 @@ font-family: "Roboto Light";
 font-weight: 300
   }
  
-
+  .contacts__phone-support{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+  }
  
 
 .support__request{

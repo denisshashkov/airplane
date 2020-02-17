@@ -27,7 +27,6 @@
   list-style: none;
   display: flex;
   flex-flow: column;
-  margin-left: 4px;
 }
 
  .reviews-item {
@@ -43,7 +42,7 @@
  }
  
  .reviews__content {
-   margin-left: 20px;
+   margin-left: 17px;
  }
 
  .reviews__time {
