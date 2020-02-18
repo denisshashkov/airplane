@@ -37,17 +37,41 @@ margin-left: 15px;
 height: 90px;
 width: 96%;
 padding: 5px;
-border: 1px solid #5972b1;
 color: #262424;
 font-family: Roboto;
 font-size: 14px;
 border-radius: 5px;
+border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.form__input--textarea:focus {
+  outline: none;
+  border-color: #5972b1;
+}
+
+
+
+.form__input {
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.form__input {
+  background: #fff;
+  width: 92%;
+  padding: 12px 9px;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: #5972b1;
 }
 
 .switch-controls__title{
-font-family: Roboto;
-font-size: 14px;margin-bottom: 10px;
-}
+  font-family: Roboto;
+  font-size: 14px;margin-bottom: 10px;
+  }
 
 .switch-controls__elem-title{
   display: flex;
@@ -129,14 +153,9 @@ font-size: 14px;margin-bottom: 10px;
 
 
 
-.form__input:focus {
-  outline: none;
-}
 
-.form__input {
-  border: 1px solid transparent;
-  border-radius: 5px;
-}
+
+
 
 
 .form__elem-title{
@@ -151,16 +170,7 @@ font-size: 14px;margin-bottom: 10px;
   margin-left: 0;
 }
 
-.form__input {
-  background: #fff;
-  width: 92%;
-  padding: 12px 9px;
-}
 
-.form__input:focus {
-  outline: none;
-  border-color: #5972b1;
-}
 
 
 .form__buttons-row{

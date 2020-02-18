@@ -48,6 +48,7 @@ text-decoration: underline;
 
 .contacts__times {
   position: relative;
+  display: inline-block;
 }
 
 .contacts__times:hover .contacts__dropdown {
@@ -65,6 +66,7 @@ text-decoration: underline;
   position: absolute;
   top: 150%;
   margin-top: 11px;
+  width: 164px;
   opacity: 0;
   right: 9999px;
   transition: opacity  .3s;
