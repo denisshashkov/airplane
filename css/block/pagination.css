@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 137px;
 }
 
 .pagination__display {
@@ -56,6 +57,7 @@
 
 .pagination__link:hover{
   color: #3a5cbf;
+  transition: 0.3s;
 }
 
 .pagination__left {

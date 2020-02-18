@@ -3,11 +3,12 @@
   font-family: Roboto;
   font-size: 49px;
   line-height: 34px;
+  margin-top: 26px;
 }
 
 .reviews__avatar {
-  width: 160px;
-  height: 160px;
+  width: 171px;
+  height: 171px;
   background-color: #d0d7db;
   border-radius: 50%;
   overflow: hidden;
@@ -19,24 +20,29 @@
  }
 
  .reviews{
-  margin-bottom: 50px;
+  margin-bottom: 36px;
 }
 
 .reviews__list {
   list-style: none;
+  display: flex;
+  flex-flow: column;
 }
 
  .reviews-item {
    display: flex;
-   margin-bottom: 60px;
+   border-bottom: 1px solid #f4f4f4;
+   padding: 10px 20px 10px 12px;
+   margin-bottom: 15px;
  }
  
  .reviews-item:nth-child(4){
    margin-bottom: 0;
+   border: none;
  }
  
  .reviews__content {
-   margin-left: 20px;
+   margin-left: 17px;
  }
 
  .reviews__time {
@@ -54,6 +60,7 @@
 
 .reviews__text {
  font-family: "Roboto Light";
- line-height: 22px;
+ line-height: 30px;
  font-size: 20px;
+ margin-top: 10px;
 }

@@ -1,11 +1,11 @@
 .form-container{
-  display: flex;
-  justify-content: center;
+  width: 885px;
+  padding-top: 58px;
 }
 
 .form {
-  padding: 52px 5%;
-  width: 700px;
+  padding: 52px 9%;
+  width: 767px;
   background-color: #f4f4f4;
 }
 
@@ -15,12 +15,17 @@ font-family: Roboto;
 font-size: 49px;
 font-weight: 700;
 line-height: 38px;
-margin-bottom: 30px;
+margin-bottom: 24px;
+margin-left: 15px;
+}
+
+.form__element{
+  margin-left: 15px;
 }
 
 .form__row {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .form__row:last-child {
@@ -30,17 +35,43 @@ margin-bottom: 30px;
 .form__input--textarea {
   resize: vertical;
 height: 90px;
-border: 1px solid #5972b1;
+width: 96%;
+padding: 5px;
 color: #262424;
 font-family: Roboto;
 font-size: 14px;
 border-radius: 5px;
+border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.form__input--textarea:focus {
+  outline: none;
+  border-color: #5972b1;
+}
+
+
+
+.form__input {
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.form__input {
+  background: #fff;
+  width: 92%;
+  padding: 12px 9px;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: #5972b1;
 }
 
 .switch-controls__title{
-font-family: Roboto;
-font-size: 14px;margin-bottom: 10px;
-}
+  font-family: Roboto;
+  font-size: 14px;margin-bottom: 10px;
+  }
 
 .switch-controls__elem-title{
   display: flex;
@@ -58,18 +89,73 @@ font-size: 14px;margin-bottom: 10px;
   width: 110px;
 }
 
+
 .switch-controls__radio{
+  position: absolute;
+  top: 0;
+  left: -9999px;
+}
+
+
+.switch-controls__radio:checked+.switch-controls__visible {
+  border-color: #1c5bc3;
+}
+
+.switch-controls__radio:checked+.switch-controls__visible:after {
+  width: 8px;
+  height: 8px;
+}
+
+.switch-controls__radio:checked+.switch-controls__visible+.switch-controls__elem-title {
+  color: #1c5bc3;
+}
+
+.switch-controls__visible,
+.switch-controls__elem-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.switch-controls__visible {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #cbcbcb;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: .3s;
+  background: #fdfdfd;
+}
+
+.switch-controls__visible:after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1c5bc3;
+  transition: .3s;
+}
+
+.switch-controls__elem-title{
+  margin-left: 5px;
+  transition: .3s;
+}
+
+.switch-controls__elem{
   cursor: pointer;
 }
 
-.form__input:focus {
-  outline: none;
-}
 
-.form__input {
-  border: 1px solid transparent;
-  border-radius: 5px;
-}
+
+
+
+
+
 
 
 .form__elem-title{
@@ -78,62 +164,68 @@ font-size: 14px;margin-bottom: 10px;
 
 .form__block {
   flex: 1;
-  margin-left: 23px;
 }
 
 .form__block:first-child {
   margin-left: 0;
 }
 
-.form__input {
-  background: #fff;
-  width: 100%;
-  padding: 12px 9px;
-}
 
-.form__input:focus {
-  outline: none;
-  border-color: #5972b1;
-}
 
 
 .form__buttons-row{
   display: flex;
   justify-content: space-between;
+  padding-right: 20px;
 }
 
 .btn{
-width: 154px;
-height: 45px;
-border-radius: 5px;
-background-color: #5972b1;
-background-repeat: no-repeat;
-background-image: url('../../image/comments/icon.png');
-background-position: 95%;
-color: #fff;
-font-family: Roboto;
-font-size: 12px;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: 2.4px;
-cursor: pointer;
-border: 0;
+  width: 154px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #5972b1;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  cursor: pointer;
+  border: 0; 
 }
 
 .btn:hover{
-  background-color: #fff;
+  background-color: #f4f4f4;
+  color: #5972b1;
+  transition: 0.4s;
+}
+
+.btn::after{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  background-image: url('../../image/sprites2.png');
   background-repeat: no-repeat;
-background-image: url('../../image/plain3.png');
-background-position: 95%;
-color:#5972b1;
-}
+  background-position: -45px -86px;
+  }
+  
+  .btn:hover::after{
+    background-position: -10px -86px;
+  }
 
-.switch-controls__radio{
-  width: 20px;
-height: 20px;
-border: 1px solid;
-}
+  .form__submit-text{
+    display: inline-block;
+    vertical-align: middle;
+  }
 
-.switch-controls__elem-title{
-  cursor: pointer;
-}
+
+
+
+
+
+
+
+
+

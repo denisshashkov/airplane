@@ -1,14 +1,14 @@
 .header {
   color: #fff;
   background-color: #5973b1;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 10px;
+  padding: 12px 3px 12px 19px;
   min-height: 77px;
 }
 
@@ -31,15 +31,104 @@
   font-family: Roboto;
 }
 
-.contacts__workhours {
-  font-weight: bold;
-  font-size: 14px;
-  opacity: .7;
-  font-family: Roboto;
-  text-decoration: underline;
+.contacts__times-trigger {
+opacity: 0.7;
+color:#ced5e8;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+text-decoration: underline;
 }
 
-.contacts__workhours:hover{
+.contacts__times-trigger:hover{
   cursor: pointer;
   color:white;
+  transition: 0.3s;
+}
+
+.contacts__times {
+  position: relative;
+  display: inline-block;
+}
+
+.contacts__times:hover .contacts__dropdown {
+  right: 0;
+  opacity: 1;
+}
+
+.contacts__dropdown {
+  background-color: #f6fbfd;
+  box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+  z-index: 10;
+  border-radius: 5px 0 5px 5px;
+  text-align: left;
+  padding: 15px 10px;
+  position: absolute;
+  top: 150%;
+  margin-top: 11px;
+  width: 164px;
+  opacity: 0;
+  right: 9999px;
+  transition: opacity  .3s;
+}
+
+.contacts__dropdown:before,
+.contacts__dropdown:after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.contacts__dropdown:before {
+  border: 11px solid transparent;
+  border-top-width: 0px;
+  border-bottom-color: #fff;
+  top: -11px;
+  right: 0;
+  width: 0;
+  height: 0;
+}
+
+.contacts__dropdown:after {
+  left: 0;
+  right: 0;
+  height: 23px;
+  top: -22px;
+}
+
+.contacts__dropdown:after {
+  left: 0;
+  right: 0;
+  height: 23px;
+  top: -22px;
+}
+
+.contacts__days {
+color: #5972b1;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+font-family: "Roboto - Bold";
+font-weight: 700;
+line-height: 18px;
+}
+
+.contacts__worktimes{
+  color: #262424;
+font-family: "Roboto Light";
+font-size: 14px;
+line-height: 18px;
+}
+
+.contacts__phone {
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+}
+
+.contacts__times-trigger{
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
 }

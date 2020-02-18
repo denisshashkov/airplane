@@ -1,77 +1,8 @@
 
 .sidebar {
-  width: 190px;
+  width: 290px;
+ 
 }
 
-.menu__link {
-  display: flex;
-  align-items: center;
-  color: #5972b1;
-  text-transform: uppercase;
-  letter-spacing: 2.4px;
-  text-decoration: none;
-  font-size: 12px;
-   font-family: Roboto;
-  font-weight: 700;
-  line-height: 54px;
-}
 
-.menu__link:hover {
-  color: black;
-}
 
-.menu__link:before {
-  content: "";
-  margin-right: 13px;
-  width: 24px;
-  height: 18px;
-  background-repeat: no-repeat;
-}
-
-.menu__item--active .menu__link {
-  color: black;
-}
-
-.menu__list {
-  list-style: none;
-  padding-top: 14px;
-}
-
-.menu__item--icon--plain .menu__link:before {
-  background-image: url('../../image/main_icon.png'); 
-  background-position: center center, top left;
-}
-
-.menu__item--icon--plain .menu__link:hover:before {
-  background-image: url('../../image/plain.png');
-  background-repeat: no-repeat;
-}
-
-.menu__item--icon--feed .menu__link:before {
-  background-image: url('../../image/feed.png');
-}
-
-.menu__item--icon--feed .menu__link:hover:before {
-  background-image: url('../../image/feed_icon.png');
-}
-
-.menu__item--icon--teem .menu__link:before {
-  background-image: url('../../image/teem.png')
-  
-}
-
-.menu__item--icon--teem .menu__link:hover:before {
-  background-image: url('../../image/team_icon.png');
-}
-
-.menu__item--active.menu__item--icon--plain .menu__link:before {
-  background-image: url('../../image/plain.png');
-}
-
-.menu__item--active.menu__item--icon--feed .menu__link:before {
-  background-image: url('../../image/feed_icon.png');
-}
-
-.menu__item--active.menu__item--icon--teem .menu__link:before {
-  background-image: url('../../image/team_icon.png');
-}

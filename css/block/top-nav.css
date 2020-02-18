@@ -1,0 +1,107 @@
+.menu__list {
+  margin: 0;
+}
+
+.menu__list{
+  display: flex;
+  list-style: none;
+}
+
+.top-nav{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+
+.menu__link {
+  display: flex;
+  align-items: center;
+  color: #5972b1;
+  text-transform: uppercase;
+  padding-right: 8px;
+  letter-spacing: 2.4px;
+  text-decoration: none;
+  font-size: 12px;
+   font-family: Roboto;
+  font-weight: 700;
+}
+
+.menu__link:hover {
+  color: black;
+  transition: 0.3s;
+}
+
+.menu__link:before {
+  content: "";
+  margin-right: 13px;
+  width: 24px;
+  height: 18px;
+  background-repeat: no-repeat;
+}
+
+.menu__item--active .menu__link {
+  color: black;
+}
+
+.menu__item{
+  margin-right: 90px;
+}
+
+.menu__item:last-child{
+  margin-right: 0;
+}
+
+.menu__item--icon--plain .menu__link:before {
+  width: 17px; 
+  height: 18px;
+  background: url('../../image/sprites.png') -96px -10px;
+}
+
+.menu__item--icon--plain .menu__link:hover:before {
+  width: 17px; 
+  height: 18px;
+  background: url('../../image/sprites.png') -96px -48px;
+  background-repeat: no-repeat;
+}
+
+.menu__item--icon--feed .menu__link:before {
+ width: 20px; 
+ height: 18px;
+    background: url('../../image/sprites.png') -10px -48px;
+}
+
+.menu__item--icon--feed .menu__link:hover:before {
+  width: 20px; 
+  height: 18px;
+  background: url('../../image/sprites.png') -50px -48px;
+}
+
+.menu__item--icon--teem .menu__link:before {
+  width: 23px; 
+  height: 18px;
+  background: url('../../image/sprites.png') -53px -10px;
+}
+
+.menu__item--icon--teem .menu__link:hover:before {
+  width: 23px; 
+  height: 18px;
+    background: url('../../image/sprites.png') -10px -10px;
+}
+
+.menu__item--active.menu__item--icon--plain .menu__link:before {
+  width: 17px; 
+  height: 18px;
+  background: url('../../image/sprites.png') -96px -48px;
+}
+
+.menu__item--active.menu__item--icon--feed .menu__link:before {
+  width: 20px; 
+  height: 18px;
+   background: url('../../image/sprites.png') -50px -48px;
+}
+
+.menu__item--active.menu__item--icon--teem .menu__link:before {
+  width: 23px;
+  height: 18px;
+  background: url('../../image/sprites.png') -10px -10px;
+}

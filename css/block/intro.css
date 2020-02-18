@@ -1,0 +1,95 @@
+.auth-wrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: url('../../image/intro/background.png')center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: bounce 1s;
+}
+
+
+.intro__animation {
+  margin-bottom: 40px;
+}
+
+
+.intro-way {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 45px;
+  border-radius: 5px;
+  background-position: 95%;
+  background: rgba(0, 0, 0, 0);
+  color: #2863c4;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  cursor: pointer;
+  border: 1px solid #2863c4;
+  text-decoration: none;
+}
+
+.intro-way:hover {
+  background-color: #3a5bbf;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.intro-way::after{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  background-image: url('../../image/sprites2.png');
+  background-repeat: no-repeat;
+  background-position: -10px -86px;
+  margin-left: 8px;
+}
+
+.intro-way:hover::after{
+  background-position: -45px -86px;
+}
+
+
+
+
+@keyframes bounce {
+
+  20%,
+  53%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
+}

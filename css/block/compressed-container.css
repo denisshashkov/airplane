@@ -1,20 +1,31 @@
 .compressed-container{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  background-color:#76b46f;
-  background-image: url(../../image/comments/pattern.png);
-  padding: 24px 20%;
-  margin-bottom: 53px;
+  text-align: center;
+  background-color: #5972b1;
+  padding: 8px;
+  width: 93%;
+  margin-left: 20px;
+  margin-bottom: 14px;
 }
-
-.support__text{
+  
+  
+  .support__text{
 color: #ffffff;
 font-family: Roboto;
-font-size: 18px;
+font-size: 19px;
 font-weight: 300;
 line-height: 30px;
-}
+font-family: "Roboto Light";
+font-weight: 300
+  }
+ 
+  .contacts__phone-support{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+  }
+ 
 
 .support__request{
 font-weight: 700;

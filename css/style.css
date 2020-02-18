@@ -7,11 +7,13 @@
 @import url('./block/news.css');
 @import url('./block/pagination.css');
 @import url('block/footer.css');
-@import url('./block/breadcrumbs.css');
+@import url('./block/top-nav.css');
 @import url('./block/reviews.css');
 @import url('./block/compressed-container.css');
 @import url('./block/form.css');
 @import url('./block/teem.css');
+@import url('./block/intro.css');
+@import url('./block/socials.css');
 
 
 

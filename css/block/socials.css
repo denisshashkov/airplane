@@ -1,0 +1,68 @@
+
+
+.socials__title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  padding-left: 14px;
+}
+
+.socials__item {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  line-height: 21px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.socials__item:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 7px;
+  background: url('../../image/sprites.png') -133px -10px;
+}
+
+.socials__item:nth-child(2):after {
+  width: 6px;
+  height: 13px;
+  background: url('../../image/sprites.png') -133px -37px;
+}
+
+.socials__item:nth-child(3):after {
+  width: 11px;
+  height: 9px;
+  background: url('../../image/sprites.png') -77px -86px;
+}
+
+.socials__item:nth-child(4):after {
+  width: 12px;
+  height: 9px;
+  background: url('../../image/sprites.png') -45px -86px;
+}
+
+
+.socials__item:hover {
+  background-color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
+.socials__item:nth-child(4) {
+  margin-right: 0;
+}
+
+.socials__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 15px;
+}

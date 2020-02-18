@@ -1,6 +1,3 @@
-.top-nav {
-  margin-top: 30px;
-}
 
 .title-teem{
 color: #262424;
@@ -17,7 +14,7 @@ line-height: 35px;
 }
 
 .teem__content {
-  width: 31%;
+  width: 33%;
   margin-bottom: 40px;
 }
 
@@ -36,7 +33,7 @@ line-height: 35px;
 .teem__left-col{
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .teem__content-avatar{
@@ -75,7 +72,7 @@ line-height: 35px;
 
 .teem__username{
   font-family: "Roboto - Bold";
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 5px;
@@ -86,39 +83,52 @@ line-height: 35px;
 font-family: "Roboto - Bold";
 font-weight: 700;
 text-align: center;
+font-size: 15px;
 }
 
 .teem__text{
   font-family: "Roboto Light";
 font-weight: 300;
 text-align: center;
+line-height: 19px;
+width: 94%;
+}
+
+.partners{
+  border: 1px solid #e8e8ec;
+  margin-bottom: 33px;
+  margin-left: 21px;
 }
 
 .partners__title{
-color: #262424;
-font-family: Roboto;
-font-size: 49px;
+  color: #262424;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 7px;
 }
 
 .partners__list{
   display: flex;
-  justify-content: center;
-  flex-flow: wrap;
+  flex-wrap: wrap;
+  flex-flow: column;
+  align-items: center;
   list-style: none;
 }
 
 .partners__content{
-  width: 30%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 30px;
-  margin-bottom: 60px;
+align-items: center;
+width: 54%;
+justify-content: center;
+padding: 17px;
+margin-bottom: 14px;
 }
 
-.partners__content:nth-child(3n){
-  margin-right: 0;
-}
+
 
 .partners__content-pic{
   filter: grayscale(1);
@@ -127,4 +137,6 @@ font-size: 49px;
 
 .partners__content-pic:hover{
   filter: none;
+  transition: 0.3s;
 }
+
